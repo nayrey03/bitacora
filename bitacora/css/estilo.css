@@ -1,0 +1,86 @@
+main{
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(../imagenes/fondo2.png);
+   
+   
+}
+section{
+    width: 1366px;
+    height: 1800px;
+    background-image: url(../imagenes/bakugou.webp);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+}
+nav a:hover{
+    background-color: rgb(253, 184, 80);
+}
+.titulo{
+    width: 1366px;
+    height: 70px;
+    background-color: rgb(255, 140, 1);
+    text-align: center;
+    color: white;
+}
+.lado1{
+    width: 550px;
+    height: 1100px;
+    background-color: rgba(255, 255, 255, 0.855);
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+.lado1 .texto1{
+    width: 500px;
+    height: 900px;
+    background-color: rgba(246, 145, 51, 0.785);
+    margin-left: 25px;
+    text-align: center;
+    
+}
+.lado2{
+    width: 700px;
+    height: 1100px;
+    background-color: rgba(255, 255, 255, 0.792); 
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+    
+}
+.lado2 .texto2{
+    width: 600px;
+    height: 550px;
+    background-color:  rgba(246, 145, 51, 0.785);
+    text-align: center;
+    margin: 25px;
+}
+section .abajo{
+    width: 1366px;
+    height: 320px;
+    background-color: rgba(255, 252, 252, 0.835);
+    float: left;
+   margin-top: 20px;
+}
+.abajo .texto3{
+    width: 1250px;
+    height: 200px;
+    background-color:  rgba(246, 145, 51, 0.785);
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
